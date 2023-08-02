@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FSH Financial Services Locator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+
+/* map needs width and height to appear */
+#map{
+	width: 100%;
+	max-width: 100%;
+	height: 700px;
+}
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styling for Autocomplete search bar */
+    #pac-card {
+      background-color: #fff;
+      border-radius: 2px 0 0 2px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      box-sizing: border-box;
+      font-family: Roboto;
+      margin: 10px 10px 0 0;
+      -moz-box-sizing: border-box;
+      outline: none;
+    }
+    
+    #pac-container {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      margin-right: 12px;
+    }
+    
+    #pac-input {
+      background-color: #fff;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 300;
+      margin-left: 12px;
+      padding: 0 11px 0 13px;
+      text-overflow: ellipsis;
+      width: 400px;
+    }
+    
+    #pac-input:focus {
+      border-color: #4d90fe;
+    }
+    
+    #title {
+      color: #fff;
+      background-color: #acbcc9;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 6px 12px;
+    }
+    
+    .hidden {
+      display: none;
+    }
+
+    /* Styling for an info pane that slides out from the left. 
+     * Hidden by default. */
+    #panel {
+      height: 100%;
+      width: null;
+      background-color: white;
+      position: fixed;
+      z-index: 1;
+      overflow-x: hidden;
+      transition: all .2s ease-out;
+    }
+    
+    .open {
+      width: 250px;
+    }
+    
+    .place {
+      font-family: 'open sans', arial, sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+      margin-block-end: 0px;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+    
+    .distanceText {
+      color: silver;
+      font-family: 'open sans', arial, sans-serif;
+      font-size: 1em;
+      font-weight: 400;
+      margin-block-start: 0.25em;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+</style>
+
+</head>
+<body>
+
+<!-- this div will hold your map -->
+<div id="map"></div>
+
+<!-- this div will hold your store info -->
+<div id="info_div"></div>
+
+<script>
+function initMap() {
+	var myMapCenter = {lat: 41.878113, lng: -87.629799};
+
+	// Create a map object and specify the DOM element for display.
+	var map = new google.maps.Map(document.getElementById('map'), {
+		center: myMapCenter,
+		zoom: 15
+	});
+	function markStore(storeInfo){
+
+		// Create a marker and set its position.
+		var marker = new google.maps.Marker({
+			map: map,
+			position: storeInfo.location,
+			title: storeInfo.name
+		});
+
+		// show store info when marker is clicked
+		marker.addListener('click', function(){
+			showStoreInfo(storeInfo);
+		});
+	}
+
+	// show store info in text box
+	function showStoreInfo(storeInfo){
+		var info_div = document.getElementById('info_div');
+		info_div.innerHTML = 'Service Name: '
+			+ storeInfo.name
+			+ '<br>Hours: ' + '8:00 AM to 6:00 PM'
+            + '<br>Ratings:' + storeInfo.review
+	}
+	var stores = [
+    {
+        name: 'Charles Schwab',
+        location: {lat: 41.8796482, lng: -87.6374689},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'Special Services Asset Management Co',
+        location: {lat: 41.83303,lng: -87.611049},
+        hours: 'Open 24 hours',
+        review: '4/5'
+    },
+    {
+        name: 'Worldwide Financial',
+        location: {lat: 41.8237326,lng: -87.618367},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'Springleaf Financial',
+        location: {lat: 41.876869, lng: -87.632694},
+        hours: 'Open 24 hours',
+        review: '4.3/5'
+    },
+    {
+        name: 'Grants Financial Services- Tax & Accounting Advisors',
+        location: {lat: 41.8551389, lng: -87.625916},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'TIAA Financial Services',
+        location: {lat: 41.8020038, lng: -87.5884046},
+        hours: 'Open 24 hours',
+        review: '3.5/5'
+    },
+    {
+        name: 'Chicago Financial Services',
+        location: {lat: 441.8898577, lng: -87.6636302},
+        hours: 'Open 24 hours',
+        review: '3.5/5'
+    } ,
+    {
+        name: 'Devon Financial Services',
+        location: {lat: 41.878129, lng: -87.632734},
+        hours: 'Open 24 hours',
+        review: '4.5/5'
+    },
+    {
+        name: 'Raymond James Financial Services',
+        location: {lat: 41.8768185, lng: -87.6359053},
+        hours: 'Open 24 hours',
+        review: '3.5/5'
+    } ,
+    {
+        name: 'Heartland Financial Services LLC',
+        location: {lat: 41.8405229, lng: -87.630083},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'Mcm Financial Services',
+        location: {lat: 41.8012222, lng: -87.6907248},
+        hours: 'Open 24 hours',
+        review: '4.6/5'
+    },
+    {
+        name: 'Sir Finance Corporation',
+        location: {lat: 41.8382323, lng: -87.6381397},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'Marie Obichere: Primerica - Financial Services',
+        location: {lat: 41.852625, lng: -87.653218},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'Beacon Financial Services',
+        location: {lat: 41.8775294, lng: -87.6295524},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'Charles Schwab',
+        location: {lat: 41.8796482, lng: -87.6374689},
+        hours: 'Open 24 hours',
+        review: '2.5/5'
+    },
+    {
+        name: 'RAO Financial Services',
+        location: {lat: 41.878129, lng: -87.632734},
+        hours: 'Open 24 hours',
+        review: '4.3/5'
+    },
+    {
+        name: 'BlueSky Financial LLC',
+        location: {lat: 41.8019212, lng: -87.6224624},
+        hours: 'Open 24 hours',
+        review: '3.3/5'
+    },
+    {
+        name: 'UBS Financial Services Inc.',
+        location: {lat: 41.8823509, lng: -87.6365945},
+        hours: 'Open 24 hours',
+        review: '2.6/5'
+    },
+    {
+        name: 'Archer Financial Services Inc',
+        location: {lat: 41.8774934, lng: -87.6317579},
+        hours: 'Open 24 hours',
+        review: '2.7/5'
+    },
+    {
+        name: 'Americas Financial Services',
+        location: {lat: 41.8547925, lng: -87.6661757},
+        hours: 'Open 24 hours',
+        review: '3.5/5'
+    },
+    {
+        name: 'Brandon John Hunt - Financial Advisor, Ameriprise Financial Services, LLC',
+        location: {lat: 41.8802369, lng:-87.6347407},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'Stephen Ross - Private Wealth Advisor, Ameriprise Financial Services, LLC',
+        location: {lat: 41.8818071, lng: -87.6312176},
+        hours: 'Open 24 hours',
+        review: '4/5'
+    },
+    {
+        name: 'Julie Rush - Financial Advisor, Ameriprise Financial Services, LLC',
+        location: {lat: 41.8802369, lng: -87.6347407},
+        hours: 'Open 24 hours',
+        review: '4/5',
+    },
+    {
+        name: 'Bloom Financial',
+        location: {lat: 41.876338, lng: -87.7751281},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'APA Financial Services',
+        location: {lat: 41.8802651, lng: -87.6269369},
+        hours: 'Open 24 hours',
+        review: '4.3/5'
+    },
+    {
+        name: 'Michael D Ruggiero - Financial Advisor, Ameriprise Financial Services, LLC',
+        location: {lat: 41.8802369, lng: -87.6347407},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+    {
+        name: 'Mindful Money Financial Counsel, LLC',
+        location: {lat: 41.884643, lng: -87.6424139},
+        hours: 'Open 24 hours',
+        review: '5/5'
+    },
+
+
+
+
+
+
+	];
+
+	stores.forEach(function(store){
+		markStore(store);
+	});
+
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAObPHJ8F9ChDA1peUkz1aH5lxmoFps1Kw&callback=initMap" async defer></script>
+</body>
+</html>

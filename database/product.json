@@ -1,0 +1,99 @@
+[{
+  "_id": {
+    "$oid": "637d0f40b547a5242c218f51"
+  },
+  "productname": "Home Loan",
+  "categorytypes": "",
+  "productunit": "",
+  "description": "A home mortgage is a loan given by a bank, mortgage company, or other financial institution for the purchase of a residence",
+  "productimage": [],
+  "warranty": "10",
+  "dur_type": "Year(s)",
+  "tagname": [
+    "Laon"
+  ],
+  "skubarcode": "A1B2C3",
+  "supplier": null,
+  "initialstock": "4.00",
+  "stockexpiry": "11/30/2022",
+  "locationrack": "",
+  "retailprice": "100.00",
+  "specialprice": "100.00",
+  "supplyprice": "100.00",
+  "commission": "0.00"
+},{
+  "_id": {
+    "$oid": "6386afc170adf13d8c399c2e"
+  },
+  "productname": "Accounting Service",
+  "categorytypes": "",
+  "productunit": "",
+  "description": "The Firm is also one of the top accounting and advisory firms in the country providing services to privately owned national firms as well as local businesses",
+  "productimage": [
+    "1669771201375-wealth.jpg"
+  ],
+  "warranty": "100",
+  "dur_type": "Day(s)",
+  "tagname": [
+    "account"
+  ],
+  "skubarcode": "A1B2C3",
+  "supplier": null,
+  "initialstock": "5.00",
+  "stockexpiry": "11/29/2022",
+  "locationrack": "",
+  "retailprice": "100.00",
+  "specialprice": "100.00",
+  "supplyprice": "100.00",
+  "commission": "0.00"
+},{
+  "_id": {
+    "$oid": "6387b2645c9d091e08758a5c"
+  },
+  "productname": "Gold Loan",
+  "categorytypes": "",
+  "productunit": "",
+  "description": "A gold loan or a loan against gold is a secured loan which customers can avail from us in lieu of gold ornaments like gold jewellery",
+  "productimage": [
+    "1669837412845-gold loan.png"
+  ],
+  "warranty": "36",
+  "dur_type": "Month(s)",
+  "tagname": [
+    "Gold laon"
+  ],
+  "skubarcode": "GOLD01",
+  "supplier": null,
+  "initialstock": "10.00",
+  "stockexpiry": "12/31/2025",
+  "locationrack": "",
+  "retailprice": "2000.00",
+  "specialprice": "2200.00",
+  "supplyprice": "100.00",
+  "commission": "0.00"
+},{
+  "_id": {
+    "$oid": "6387dbc05b868f2e083702b1"
+  },
+  "productname": "Life Insurance",
+  "categorytypes": "",
+  "productunit": "",
+  "description": "Life insurance is a contract in which a policyholder pays premiums in exchange for a lumpsum death benefit that may be paid to the policyholders beneficiaries",
+  "productimage": [
+    "1669848000082-life-insurance-DP_6587906_L.jpg"
+  ],
+  "warranty": "25",
+  "dur_type": "Year(s)",
+  "tagname": [
+    "life insurance"
+  ],
+  "skubarcode": "A1B2C4",
+  "supplier": null,
+  "initialstock": "100.00",
+  "stockexpiry": "11/30/2023",
+  "locationrack": "",
+  "retailprice": "2500.00",
+  "specialprice": "100.00",
+  "supplyprice": "100.00",
+  "commission": "100.00"
+}]

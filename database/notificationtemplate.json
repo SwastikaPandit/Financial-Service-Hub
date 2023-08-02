@@ -1,0 +1,118 @@
+[{
+  "_id": {
+    "$oid": "5d8a049a3d22980b18c1624e"
+  },
+  "notificationtype": "email",
+  "slug": "add user",
+  "templatetitle": "Added User",
+  "subject": "You are successully added at _systemname_.",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_,_newline_ _tab_ You are successully added at _systemname_.  Your have been assigned role of _ROLENAME_  in _systemname_. You can access system using your username and password.  You can signin using this link. Your credentials are below : _newline__newline__tab_User Name : _username_,_newline__tab_Password : _password_ _newline__tab__link_._newline__tab__newline_Regards From  _systemname_."
+},{
+  "_id": {
+    "$oid": "5d8c6ff908cb970a6058eee9"
+  },
+  "notificationtype": "email",
+  "slug": "Add Loan",
+  "templatetitle": "Loan Add",
+  "subject": "Loan added successfully.",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_,_newline__tab_Your _LOANTYPE_ has been successfully added on _datetime_,Your EMI months will be starting from _LOANSTARTDATE_ and will end on _LOANENDDATE_ _newline_Regards From System Name."
+},{
+  "_id": {
+    "$oid": "5d8d9aa297f6bb2b8cbd2876"
+  },
+  "notificationtype": "email",
+  "slug": "Loan Approved",
+  "templatetitle": "Loan Approved",
+  "subject": "Loan approved.",
+  "content": "Hello _USERFIRSTNAME_ _USERLASTNAME_, _newline__tab_Your _LOANTYPE_ has been approved. You can start your EMI as per time period._newline_Thank You."
+},{
+  "_id": {
+    "$oid": "5de1f5d158f0562cccc386d2"
+  },
+  "notificationtype": "email",
+  "slug": "add event",
+  "templatetitle": "One day Event Added",
+  "subject": "Event added successfully.",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_, _newline_Here is the new Event from _systemname_._newline_ _tab_Title : _EVENTNAME_.._newline_ _tab_Event Venue : _EVENTVENUE_.._newline_ _tab_Event Start Date : _EVENTSTARTDATE_.._newline_Regards From _systemname_."
+},{
+  "_id": {
+    "$oid": "5de1fe40fd51782ed08a3f24"
+  },
+  "notificationtype": "email",
+  "slug": "add event",
+  "templatetitle": "Multiple days Event Added",
+  "subject": "Event added successfully",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_,_newline_Here is the new Event from EWS._newline__tab_Title : _EVENTNAME_._newline__tab_Event Venue : _EVENTVENUE_._newline__tab_Event Start Date : _EVENTSTARTDATE_._newline__tab_Event EndDate : _EVENTENDDATE_._newline_Regards From _systemname_."
+},{
+  "_id": {
+    "$oid": "5dea1dc46b539e2704a5fd1c"
+  },
+  "notificationtype": "email",
+  "slug": "update event",
+  "templatetitle": "one day event updated",
+  "subject": "Update in _EVENTNAME_ From _systemname_.",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_, _newline__tab_Here is some updates in event _EVENTNAME_   from EWS._newline__tab_Title : _EVENTNAME_._newline__tab_Event Venue : _EVENTVENUE_._newline__tab_Event Start Date : _EVENTSTARTDATE_._newline_Regards From _systemname_."
+},{
+  "_id": {
+    "$oid": "5dea204e6b539e2704a5fd1e"
+  },
+  "notificationtype": "email",
+  "slug": "update event",
+  "templatetitle": "multiple day event updated",
+  "subject": "Update in _EVENTNAME_ From _systemname_.",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_, _newline__tab_Here is some updates in event _EVENTNAME_   from _systemname_._newline__tab__tab_Title : _EVENTNAME_._newline__tab__tab_Event Venue : _EVENTVENUE_._newline__tab__tab_Event Start Date : _EVENTSTARTDATE_._newline__tab__tab_Event EndDate : _EVENTENDDATE_._newline_Regards From _systemname_.\r\n"
+},{
+  "_id": {
+    "$oid": "5dea2bc728830f282c3ba42e"
+  },
+  "notificationtype": "email",
+  "slug": "delete event",
+  "templatetitle": "one day event deleted",
+  "subject": "_EVENTNAME_  Cancelled From _systemname_.",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_,_newline__tab__EVENTNAME_ has been cancelled._newline__tab__tab_Title : _EVENTNAME_._newline__tab__tab_Event Venue : _EVENTVENUE_._newline__tab__tab_Event Start Date : _EVENTSTARTDATE_. _newline_Regards From _systemname_."
+},{
+  "_id": {
+    "$oid": "5dea2c4028830f282c3ba431"
+  },
+  "notificationtype": "email",
+  "slug": "delete event",
+  "templatetitle": "multiple day event deleted",
+  "subject": "_EVENTNAME_  Cancelled From _systemname_.",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_,_newline__tab__EVENTNAME_ has been cancelled._newline__tab__tab_Title : _EVENTNAME_._newline__tab__tab_Event Venue : _EVENTVENUE_._newline__tab__tab_Event Start Date : _EVENTSTARTDATE_. _newline__tab__tab_Event EndDate : _EVENTENDDATE_._newline_Regards From _systemname_."
+},{
+  "_id": {
+    "$oid": "5df069667f4fd726c4d220a6"
+  },
+  "notificationtype": "email",
+  "slug": "update user",
+  "templatetitle": "user profile updated",
+  "subject": "Profile Updated Succesfully at _systemname_",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_,_newline__tab_Your Profile has been successfully Updated on _DATETIME_, _newline_Regards From _systemname_."
+},{
+  "_id": {
+    "$oid": "5df06fb80cba9c1f204f61e0"
+  },
+  "notificationtype": "email",
+  "slug": "delete user",
+  "templatetitle": "user deleted",
+  "subject": "Your Account Deleted from _systemname_",
+  "content": "Dear _USERFIRSTNAME_ _USERLASTNAME_,_newline__tab_Your Profile has been deleted from _systemname_ on _DATETIME_, _newline_Regards From _systemname_."
+},{
+  "_id": {
+    "$oid": "609908b99c17b83414d57356"
+  },
+  "notificationtype": "email",
+  "slug": "Upcoming Emi Notification",
+  "templatetitle": "Upcoming Emi Notification",
+  "subject": "Upcoming Emi Payment",
+  "content": "Hi _USERFIRSTNAME_ _USERLASTNAME_ ,_newline_ _tab_ Just friendly reminder that your EMI Payment come. _newline_  _tab_ We hope we help you for your payment._newline__tab__newline_Regards From  _systemname_."
+},{
+  "_id": {
+    "$oid": "609a2c1302603d1c94652cf9"
+  },
+  "notificationtype": "email",
+  "slug": "EMI Payment pending",
+  "templatetitle": "EMI Payment pending",
+  "subject": "EMI Payment Pending",
+  "content": "Hi _USERFIRSTNAME_ _USERLASTNAME_ ,_newline_ _tab_ You EMI Payment is remain of last month. Please check Emi payments. _newline_  _tab_ We hope we help you for your payment._newline__tab__newline_Regards From  _systemname_."
+}]

@@ -1,0 +1,625 @@
+[{
+  "_id": {
+    "$oid": "635af8e2c97467cef8c694ef"
+  },
+  "date": "Thu Oct 27 2022 17:32:18 GMT-0400 (Eastern Daylight Time)",
+  "module": "User",
+  "action": "inserted user named admin",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "divyesh.admin",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "635b024f275ba107f1b3f164"
+  },
+  "date": "2022-10-27",
+  "module": "Custom Fields",
+  "action": "inserted customfield in",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "635b0315275ba107f1b3f166"
+  },
+  "date": "2022-10-27",
+  "module": "User",
+  "action": "inserted user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "deep",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "635f2577d68109722620a838"
+  },
+  "date": "2022-10-30",
+  "module": "Loan Type",
+  "action": "inserted loantype",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Personal Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637b9369b547a5242c218f3d"
+  },
+  "date": "2022-11-21",
+  "module": "Loan Type",
+  "action": "updated loantype",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Personal Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637d06e1b547a5242c218f3f"
+  },
+  "date": "2022-11-22",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "deep",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637d07f8b547a5242c218f41"
+  },
+  "date": "2022-11-22",
+  "module": "Role",
+  "action": "inserted role",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Customer",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637d08dfb547a5242c218f43"
+  },
+  "date": "2022-11-22",
+  "module": "User",
+  "action": "inserted user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "swastika",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637d0ebfb547a5242c218f4b"
+  },
+  "date": "2022-11-22",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Home Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637d0ed7b547a5242c218f4e"
+  },
+  "date": "2022-11-22",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "ATM",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637d0f41b547a5242c218f52"
+  },
+  "date": "2022-11-22",
+  "module": "Product",
+  "action": "inserted product",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Home Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6386382e2f95682e000f72f2"
+  },
+  "date": "2022-11-29",
+  "module": "Loan",
+  "action": "updated loan no.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "L1669740512",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863be92f95682e000f7301"
+  },
+  "date": "2022-11-29",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Car Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863bfa2f95682e000f7304"
+  },
+  "date": "2022-11-29",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Personal Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863c132f95682e000f7307"
+  },
+  "date": "2022-11-29",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Gold Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863c2c2f95682e000f730a"
+  },
+  "date": "2022-11-29",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Car Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863c3d2f95682e000f730d"
+  },
+  "date": "2022-11-29",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Home Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863c522f95682e000f730e"
+  },
+  "date": "2022-11-29",
+  "module": "Loan Type",
+  "action": "updated loantype",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Personal Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863cb02f95682e000f7310"
+  },
+  "date": "2022-11-29",
+  "module": "Loan Type",
+  "action": "inserted loantype",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Home Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863d9f2f95682e000f7312"
+  },
+  "date": "2022-11-29",
+  "module": "Loan Type",
+  "action": "inserted loantype",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Car Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863ec32f95682e000f7314"
+  },
+  "date": "2022-11-29",
+  "module": "Event",
+  "action": "inserted event",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": null,
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63863f5e2f95682e000f7316"
+  },
+  "date": "2022-11-29",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "swastika",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6386abb370adf13d8c399c1b"
+  },
+  "date": "2022-11-29",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Wealth Management",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6386ac8370adf13d8c399c1f"
+  },
+  "date": "2022-11-29",
+  "module": "Service",
+  "action": "inserted service",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Wealth Advisory",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6386ad0570adf13d8c399c23"
+  },
+  "date": "2022-11-29",
+  "module": "Service",
+  "action": "inserted service",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Mutal Funds",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6386ade670adf13d8c399c27"
+  },
+  "date": "2022-11-29",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "deep",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6386ae4470adf13d8c399c2b"
+  },
+  "date": "2022-11-29",
+  "module": "EMI",
+  "action": "updated EMI",
+  "user": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "item": "L1669740512",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6386afc170adf13d8c399c2f"
+  },
+  "date": "2022-11-29",
+  "module": "Product",
+  "action": "inserted product",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Accounting Service",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6386afd770adf13d8c399c30"
+  },
+  "date": "2022-11-29",
+  "module": "Product",
+  "action": "updated product",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Accounting Service",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387ad915c9d091e08758a45"
+  },
+  "date": "2022-11-30",
+  "module": "Event",
+  "action": "inserted event",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": null,
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387adf65c9d091e08758a47"
+  },
+  "date": "2022-11-30",
+  "module": "Event",
+  "action": "inserted event",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": null,
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b0735c9d091e08758a49"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "inserted user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "user1",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b0855c9d091e08758a4d"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "user1",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b0965c9d091e08758a4f"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "deep",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b0ee5c9d091e08758a51"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "inserted user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "staff",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b16c5c9d091e08758a59"
+  },
+  "date": "2022-11-30",
+  "module": "Category",
+  "action": "inserted category",
+  "user": {
+    "$oid": "6387b0ee5c9d091e08758a50"
+  },
+  "item": "Mutual Funds",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b2645c9d091e08758a5d"
+  },
+  "date": "2022-11-30",
+  "module": "Product",
+  "action": "inserted product",
+  "user": {
+    "$oid": "6387b0ee5c9d091e08758a50"
+  },
+  "item": "Gold Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b6f35c9d091e08758a61"
+  },
+  "date": "2022-11-30",
+  "module": "Service",
+  "action": "inserted service",
+  "user": {
+    "$oid": "6387b0ee5c9d091e08758a50"
+  },
+  "item": "ATM Service",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b7185c9d091e08758a62"
+  },
+  "date": "2022-11-30",
+  "module": "Service",
+  "action": "updated service",
+  "user": {
+    "$oid": "6387b0ee5c9d091e08758a50"
+  },
+  "item": "ATM Service",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387b7cf5c9d091e08758a66"
+  },
+  "date": "2022-11-30",
+  "module": "Service",
+  "action": "inserted service",
+  "user": {
+    "$oid": "6387b0ee5c9d091e08758a50"
+  },
+  "item": "ATM Locator",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387d7705c9d091e08758a69"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "swastika",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387d85e5c9d091e08758a6b"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "swastika",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387d9df5c9d091e08758a6d"
+  },
+  "date": "2022-11-30",
+  "module": "Loan",
+  "action": "updated loan no.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "L1669847383",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387da165c9d091e08758a72"
+  },
+  "date": "2022-11-30",
+  "module": "Loan",
+  "action": "updated loan no.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "L1669847383",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387dbc05b868f2e083702b2"
+  },
+  "date": "2022-11-30",
+  "module": "Product",
+  "action": "inserted product",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Life Insurance",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387dbe55b868f2e083702b3"
+  },
+  "date": "2022-11-30",
+  "module": "Product",
+  "action": "updated product",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "Home Loan",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387f7b35b868f2e083702b5"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "staff5",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387f7c95b868f2e083702b7"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "cust4",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "6387f7ee5b868f2e083702b9"
+  },
+  "date": "2022-11-30",
+  "module": "User",
+  "action": "updated user named",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "staff",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63880aafe8dfa043e4ebac16"
+  },
+  "date": "2022-11-30",
+  "module": "Loan",
+  "action": "updated loan no.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "L1669859882",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63880adae8dfa043e4ebac1b"
+  },
+  "date": "2022-11-30",
+  "module": "Loan",
+  "action": "updated loan no.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "L1669859882",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "63880e46a1e8a3269072bac8"
+  },
+  "date": "2022-11-30",
+  "module": "Loan",
+  "action": "updated loan no.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "item": "L1669860850",
+  "status": 0
+}]

@@ -1,0 +1,142 @@
+[{
+  "_id": {
+    "$oid": "6386382e2f95682e000f72f3"
+  },
+  "loan_id": {
+    "$oid": "6386382e2f95682e000f72f1"
+  },
+  "user_id": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "month": 1,
+  "interest": 25,
+  "principal": 1990.024968734557,
+  "remainingBalance": 8009.975031265443,
+  "date": "2022-11-29",
+  "status": 1,
+  "mail_noti": 0
+},{
+  "_id": {
+    "$oid": "6386382e2f95682e000f72f4"
+  },
+  "loan_id": {
+    "$oid": "6386382e2f95682e000f72f1"
+  },
+  "user_id": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "month": 2,
+  "interest": 20.02493757816361,
+  "principal": 1995.0000311563933,
+  "remainingBalance": 6014.97500010905,
+  "date": "2022-12-29",
+  "status": 1,
+  "mail_noti": 1,
+  "cheque_accountno": "",
+  "cheque_date": "",
+  "cheque_name": "",
+  "payment_type": "debitcard",
+  "paymentamount": ""
+},{
+  "_id": {
+    "$oid": "6386382e2f95682e000f72f5"
+  },
+  "loan_id": {
+    "$oid": "6386382e2f95682e000f72f1"
+  },
+  "user_id": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "month": 3,
+  "interest": 15.037437500272624,
+  "principal": 1999.9875312342845,
+  "remainingBalance": 4014.987468874765,
+  "date": "2023-01-29",
+  "status": 0,
+  "mail_noti": 1
+},{
+  "_id": {
+    "$oid": "6386382e2f95682e000f72f6"
+  },
+  "loan_id": {
+    "$oid": "6386382e2f95682e000f72f1"
+  },
+  "user_id": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "month": 4,
+  "interest": 10.037468672186913,
+  "principal": 2004.9875000623701,
+  "remainingBalance": 2009.9999688123949,
+  "date": "2023-03-01",
+  "status": 0,
+  "mail_noti": 1
+},{
+  "_id": {
+    "$oid": "6386382e2f95682e000f72f7"
+  },
+  "loan_id": {
+    "$oid": "6386382e2f95682e000f72f1"
+  },
+  "user_id": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "month": 5,
+  "interest": 5.024999922030987,
+  "principal": 2009.999968812526,
+  "remainingBalance": 0,
+  "date": "2023-04-01",
+  "status": 0,
+  "mail_noti": 1
+},{
+  "_id": {
+    "$oid": "6387d9df5c9d091e08758a6e"
+  },
+  "loan_id": {
+    "$oid": "6387d9df5c9d091e08758a6c"
+  },
+  "user_id": {
+    "$oid": "6387d8b7f9e95bfeca4d53dd"
+  },
+  "month": 1,
+  "interest": 958.3333333333335,
+  "principal": 199999.99999999654,
+  "remainingBalance": 0,
+  "date": "2022-11-30",
+  "status": 1,
+  "mail_noti": 1
+},{
+  "_id": {
+    "$oid": "63880aafe8dfa043e4ebac17"
+  },
+  "loan_id": {
+    "$oid": "63880aafe8dfa043e4ebac15"
+  },
+  "user_id": {
+    "$oid": "6387d8b7f9e95bfeca4d53da"
+  },
+  "month": 1,
+  "interest": 25,
+  "principal": 10000.000000000213,
+  "remainingBalance": 0,
+  "date": "2022-11-30",
+  "status": 1,
+  "mail_noti": 0
+},{
+  "_id": {
+    "$oid": "63880e46a1e8a3269072bac9"
+  },
+  "loan_id": {
+    "$oid": "63880e46a1e8a3269072bac7"
+  },
+  "user_id": {
+    "$oid": "6387d8b7f9e95bfeca4d53db"
+  },
+  "month": 1,
+  "interest": 583.3333333333334,
+  "principal": 99999.9999999996,
+  "remainingBalance": 0,
+  "date": "2022-11-30",
+  "status": 0,
+  "mail_noti": 1
+}]

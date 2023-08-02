@@ -1,0 +1,34 @@
+[{
+  "_id": {
+    "$oid": "635f2577d68109722620a837"
+  },
+  "type": "Personal Loan",
+  "loan_desc": "This loan is a feature that allows you to borrow from your existing card's available limit. You'll pay it back over a set period of time based on your loan amount with a fixed Annual Percentage Rate that's lower than your standard purchase APR.",
+  "loan_min_amount": "50000",
+  "loan_max_amount": "300000",
+  "interestrate": "3.00",
+  "latepaymentcharge": "500",
+  "processingfee": "100"
+},{
+  "_id": {
+    "$oid": "63863cb02f95682e000f730f"
+  },
+  "type": "Home Loan",
+  "loan_desc": "A mortgage is a written agreement that gives a lender the right to take your home if you don't repay the money they lend you at the terms you agreed on. Your mortgage payment is paid over a set number of years based on how much you borrow and the interest rate you're approved for.",
+  "loan_min_amount": "50000",
+  "loan_max_amount": "10000000",
+  "interestrate": "6.00",
+  "latepaymentcharge": "500",
+  "processingfee": "200"
+},{
+  "_id": {
+    "$oid": "63863d9f2f95682e000f7311"
+  },
+  "type": "Car Loan",
+  "loan_desc": "An auto loan allows you to borrow money from a lender and use that money to purchase a car",
+  "loan_min_amount": "50000",
+  "loan_max_amount": "600000",
+  "interestrate": "4.00",
+  "latepaymentcharge": "500",
+  "processingfee": "500"
+}]

@@ -1,0 +1,460 @@
+[{
+  "_id": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "firstname": "Divyesh",
+  "middlename": "B",
+  "lastname": "Patel",
+  "email": "dpatel184@hawk.iit.edu",
+  "photo": "default.png",
+  "ccode": "01",
+  "mobile": "3129004370",
+  "occupation": "admin",
+  "birthdate": "05/12/1991",
+  "gender": "Male",
+  "username": "divyesh.admin",
+  "role": {
+    "$oid": "5d5671a63d7d020a9857f935"
+  },
+  "password": "$2b$10$te7vg3tAA0i7NsjHkFd0MOAf9GramgVcB7d1sFtfrgsl6rDwGm/0K",
+  "address": "Chicago",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "00000000000",
+  "pannumber": "YYYYY0000Y",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "firstname": "Deep",
+  "middlename": "S",
+  "lastname": "Solanki",
+  "email": "dsolanki1@hawk.iit.edu",
+  "photo": "1666908949483-default.png",
+  "ccode": "11",
+  "mobile": "3123004352",
+  "occupation": "Student",
+  "birthdate": "1998-06-07",
+  "gender": "Male",
+  "username": "deep",
+  "role": {
+    "$oid": "5dca8556a33db915988ba532"
+  },
+  "password": "$2b$10$Y6zhoZivAjy4OPvoVZOlZOLJI2alkkhSL4o3WY9iZisj1fw9C0hUa",
+  "address": "Chicago",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "123456789",
+  "pannumber": "DEEPS1111E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "637d08dfb547a5242c218f42"
+  },
+  "firstname": "Swastika",
+  "middlename": "A",
+  "lastname": "Pandit",
+  "email": "spandit@hawk.iit.edu",
+  "photo": "1669742430191-user-icon-female-person-symbol-profile-avatar-sign-vector-18991898.jpg",
+  "ccode": "01",
+  "mobile": "1234567892",
+  "occupation": "Student",
+  "birthdate": "2022-11-19",
+  "gender": "Female",
+  "username": "swastika",
+  "role": {
+    "$oid": "5de8c45b0b29ca27380fa307"
+  },
+  "password": "$2b$10$JoVlChfPLX.2p1OjXAFmz.2tUOQ6HsPHkWAuSgqkfal99brdg/4tC",
+  "address": "Chicago",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "123456346",
+  "pannumber": "SWAST1234K",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387b0735c9d091e08758a48"
+  },
+  "firstname": "User",
+  "middlename": "One",
+  "lastname": "User",
+  "email": "user@gmail.com",
+  "photo": "1669836915414-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3123123121",
+  "occupation": "Farmer",
+  "birthdate": "2003-02-05",
+  "gender": "Male",
+  "username": "user1",
+  "role": {
+    "$oid": "5dca8556a33db915988ba532"
+  },
+  "password": "$2b$10$6jK1AtiuSfkPnYzqsYqW..IQREK7bHb028UhJ5yhT1lsWs3nsSe7O",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "434554321",
+  "pannumber": "CXWSS1234E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387b0ee5c9d091e08758a50"
+  },
+  "firstname": "Manish",
+  "middlename": "One",
+  "lastname": "Bank",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-03-15",
+  "gender": "Male",
+  "username": "staff",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d65af9e95bfeca4d53d2"
+  },
+  "firstname": "Staff",
+  "middlename": "Two",
+  "lastname": "Bank",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "staff",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d65af9e95bfeca4d53d3"
+  },
+  "firstname": "Staff",
+  "middlename": "Three",
+  "lastname": "Bank",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "staff1",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d6a5f9e95bfeca4d53d4"
+  },
+  "firstname": "Rahul",
+  "middlename": "A",
+  "lastname": "Patel",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff2",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "staff",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d6a5f9e95bfeca4d53d5"
+  },
+  "firstname": "Veeral",
+  "middlename": "S",
+  "lastname": "Patel",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "staff3",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d72ff9e95bfeca4d53d6"
+  },
+  "firstname": "Shivam",
+  "middlename": "R",
+  "lastname": "Vaghela",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "staff4",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d72ff9e95bfeca4d53d7"
+  },
+  "firstname": "Jayshil",
+  "middlename": "S",
+  "lastname": "Khanjanji",
+  "email": "js@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-03-15",
+  "gender": "Male",
+  "username": "staff5",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d72ff9e95bfeca4d53d8"
+  },
+  "firstname": "Raj",
+  "middlename": "B",
+  "lastname": "Banker",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "staff6",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d72ff9e95bfeca4d53d9"
+  },
+  "firstname": "Nirmal",
+  "middlename": "S",
+  "lastname": "Patel",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "staff7",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d8b7f9e95bfeca4d53da"
+  },
+  "firstname": "Janak",
+  "middlename": "R",
+  "lastname": "patel",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "cust",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d8b7f9e95bfeca4d53db"
+  },
+  "firstname": "Nirav",
+  "middlename": "S",
+  "lastname": "Patel",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "cust1",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d8b7f9e95bfeca4d53dc"
+  },
+  "firstname": "Niku",
+  "middlename": "B",
+  "lastname": "Patel",
+  "email": "staff@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Cust3",
+  "birthdate": "2006-3-15",
+  "gender": "Male",
+  "username": "staff",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d8b7f9e95bfeca4d53dd"
+  },
+  "firstname": "Kirtan",
+  "middlename": "S",
+  "lastname": "Patel",
+  "email": "ks@fsh.com",
+  "photo": "1669837037880-avatar-s-1.png",
+  "ccode": "01",
+  "mobile": "3124563121",
+  "occupation": "Staff",
+  "birthdate": "2006-03-15",
+  "gender": "Male",
+  "username": "cust4",
+  "role": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "password": "$2b$10$9XJMaUrFxwGqsiLBKriQMe2B4M89MiDRDZTVqP5GqqIvGdt9rtIQ6",
+  "address": "401 E, 32 Street 1701 LM",
+  "country": 231,
+  "state": 3934,
+  "city": 44173,
+  "pincode": "60616",
+  "accountnumber": "23124234325",
+  "pannumber": "CXDSE2134E",
+  "status": 1
+}]

@@ -1,0 +1,43 @@
+[{
+  "_id": {
+    "$oid": "637d0ed7b547a5242c218f4d"
+  },
+  "categorytypes": "service",
+  "categoryname": "ATM"
+},{
+  "_id": {
+    "$oid": "63863bfa2f95682e000f7303"
+  },
+  "categorytypes": "Loan",
+  "categoryname": "Personal Loan"
+},{
+  "_id": {
+    "$oid": "63863c132f95682e000f7306"
+  },
+  "categorytypes": "Loan",
+  "categoryname": "Gold Loan"
+},{
+  "_id": {
+    "$oid": "63863c2c2f95682e000f7309"
+  },
+  "categorytypes": "Loan",
+  "categoryname": "Car Loan"
+},{
+  "_id": {
+    "$oid": "63863c3d2f95682e000f730c"
+  },
+  "categorytypes": "Loan",
+  "categoryname": "Home Loan"
+},{
+  "_id": {
+    "$oid": "6386abb370adf13d8c399c1a"
+  },
+  "categorytypes": "service",
+  "categoryname": "Wealth Management"
+},{
+  "_id": {
+    "$oid": "6387b16c5c9d091e08758a58"
+  },
+  "categorytypes": "investment",
+  "categoryname": "Mutual Funds"
+}]

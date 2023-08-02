@@ -1,0 +1,41 @@
+[{
+  "_id": {
+    "$oid": "63863ec32f95682e000f7313"
+  },
+  "eventtype": "",
+  "eventtitle": "Is owning a Business a good fit for you",
+  "eventvenue": "McCormick Place\r\nConvention center in Chicago, Illinois",
+  "duration": "one day",
+  "startdate": "11/30/2022",
+  "enddate": "11/30/2022",
+  "eventfor": "all",
+  "eventdetail": "Are you ready to start your small business, or are you looking for additional support as an active entrepreneur Join in this new information session as they highlight key services offers"
+},{
+  "_id": {
+    "$oid": "6387ad915c9d091e08758a44"
+  },
+  "eventtype": "",
+  "eventtitle": "Basics of Mutual Funds",
+  "eventvenue": "1200 W Harrison St Grage, Chicago, IL",
+  "duration": "multiple days",
+  "startdate": "11/30/2022",
+  "enddate": "02/28/2023",
+  "eventfor": {
+    "$oid": "5dca8556a33db915988ba532"
+  },
+  "eventdetail": "Learn how to start investment in mutual funds"
+},{
+  "_id": {
+    "$oid": "6387adf65c9d091e08758a46"
+  },
+  "eventtype": "",
+  "eventtitle": "Deal or No Deal Real Estate Investment",
+  "eventvenue": "Chicago and Burbs",
+  "duration": "one day",
+  "startdate": "12/12/2022",
+  "enddate": "12/12/2022",
+  "eventfor": {
+    "$oid": "637d07f8b547a5242c218f40"
+  },
+  "eventdetail": ""
+}]

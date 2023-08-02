@@ -1,0 +1,237 @@
+[{
+  "_id": {
+    "$oid": "635b0315275ba107f1b3f168"
+  },
+  "action": "New User",
+  "desc": "New account created.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "date": "2022-10-27",
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637d06e0b547a5242c218f3e"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "Name": "deep",
+  "date": "2022-11-22",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "637d08dfb547a5242c218f45"
+  },
+  "action": "New User",
+  "desc": "New account created.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "date": "2022-11-22",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6386382e2f95682e000f72fa"
+  },
+  "action": "New Loan Added",
+  "desc": "is added ",
+  "loan": {
+    "$oid": "6386382e2f95682e000f72f1"
+  },
+  "user": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "userby": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "Name": "Personal Loan",
+  "date": "2022-11-29",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "63863f5e2f95682e000f7315"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "637d08dfb547a5242c218f42"
+  },
+  "Name": "swastika",
+  "date": "2022-11-29",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6386ade570adf13d8c399c26"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "Name": "deep",
+  "date": "2022-11-29",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387b0735c9d091e08758a4b"
+  },
+  "action": "New User",
+  "desc": "New account created.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387b0855c9d091e08758a4c"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "6387b0735c9d091e08758a48"
+  },
+  "Name": "user1",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387b0965c9d091e08758a4e"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "Name": "deep",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387b0ee5c9d091e08758a53"
+  },
+  "action": "New User",
+  "desc": "New account created.",
+  "user": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d7705c9d091e08758a68"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "637d08dfb547a5242c218f42"
+  },
+  "Name": "swastika",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d85e5c9d091e08758a6a"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "637d08dfb547a5242c218f42"
+  },
+  "Name": "swastika",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387d9df5c9d091e08758a71"
+  },
+  "action": "New Loan Added",
+  "desc": "is added ",
+  "loan": {
+    "$oid": "6387d9df5c9d091e08758a6c"
+  },
+  "user": {
+    "$oid": "6387d8b7f9e95bfeca4d53dd"
+  },
+  "userby": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "Name": "Home Loan",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387f7b35b868f2e083702b4"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "6387d72ff9e95bfeca4d53d7"
+  },
+  "Name": "staff5",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387f7c85b868f2e083702b6"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "6387d8b7f9e95bfeca4d53dd"
+  },
+  "Name": "cust4",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "6387f7ee5b868f2e083702b8"
+  },
+  "action": "User Updated",
+  "desc": "is updated",
+  "user": {
+    "$oid": "6387b0ee5c9d091e08758a50"
+  },
+  "Name": "staff",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "63880aafe8dfa043e4ebac1a"
+  },
+  "action": "New Loan Added",
+  "desc": "is added ",
+  "loan": {
+    "$oid": "63880aafe8dfa043e4ebac15"
+  },
+  "user": {
+    "$oid": "6387d8b7f9e95bfeca4d53da"
+  },
+  "userby": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "Name": "Personal Loan",
+  "date": "2022-11-30",
+  "status": 1
+},{
+  "_id": {
+    "$oid": "63880e46a1e8a3269072bacc"
+  },
+  "action": "New Loan Added",
+  "desc": "is added ",
+  "loan": {
+    "$oid": "63880e46a1e8a3269072bac7"
+  },
+  "user": {
+    "$oid": "6387d8b7f9e95bfeca4d53db"
+  },
+  "userby": {
+    "$oid": "635af8e2c97467cef8c694ee"
+  },
+  "Name": "Home Loan",
+  "date": "2022-11-30",
+  "status": 1
+}]

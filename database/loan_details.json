@@ -1,0 +1,142 @@
+[{
+  "_id": {
+    "$oid": "6386382e2f95682e000f72f1"
+  },
+  "loancount": "L1669740512",
+  "loantype": {
+    "$oid": "635f2577d68109722620a837"
+  },
+  "user": {
+    "$oid": "635b0315275ba107f1b3f165"
+  },
+  "description": "This loan is a feature that allows you to borrow from your existing card's available limit. You'll pay it back over a set period of time based on your loan amount with a fixed Annual Percentage Rate that's lower than your standard purchase APR.",
+  "document": [
+    "1669740590033-form10-2020-06 (1).pdf",
+    "1669740590036-form10-2020-06 (1).pdf"
+  ],
+  "loanamount": "10000",
+  "interestrate": "3.00",
+  "years": "1.0",
+  "startdate": "2022-11-29",
+  "enddate": "2022-11-29",
+  "totalemimonth": "5",
+  "processingfee": "100",
+  "incomeperyear": "500000",
+  "incomepermonth": "5000",
+  "oincome": "5000",
+  "workdetail": "",
+  "colleague": "",
+  "address": "",
+  "mobile": "",
+  "addtype": "Select colleague address type",
+  "othertext": "",
+  "status": 1,
+  "approvestatus": 1,
+  "monthly_payment": 2015.024968734557
+},{
+  "_id": {
+    "$oid": "6387d9df5c9d091e08758a6c"
+  },
+  "loancount": "L1669847383",
+  "loantype": {
+    "$oid": "63863cb02f95682e000f730f"
+  },
+  "user": {
+    "$oid": "6387d8b7f9e95bfeca4d53dd"
+  },
+  "description": "A mortgage is a written agreement that gives a lender the right to take your home if you don't repay the money they lend you at the terms you agreed on. Your mortgage payment is paid over a set number of years based on how much you borrow and the interest rate you're approved for.",
+  "document": [
+    "1669847519701-form10-2020-06 (1).pdf",
+    "1669847519702-form10-2020-06 (1).pdf"
+  ],
+  "loanamount": "200000",
+  "interestrate": "5.75",
+  "years": "7.0",
+  "startdate": "2022-11-29",
+  "enddate": "2028-11-30",
+  "totalemimonth": "1",
+  "processingfee": "500",
+  "incomeperyear": "240000",
+  "incomepermonth": "12000",
+  "oincome": "5000",
+  "workdetail": "Software Developer",
+  "colleague": "Divyesh",
+  "address": "2522 Capitol Ave, Aurora",
+  "mobile": "3129004370",
+  "addtype": "home",
+  "othertext": "",
+  "status": 1,
+  "approvestatus": 1,
+  "monthly_payment": 10000
+},{
+  "_id": {
+    "$oid": "63880aafe8dfa043e4ebac15"
+  },
+  "loancount": "L1669859882",
+  "loantype": {
+    "$oid": "635f2577d68109722620a837"
+  },
+  "user": {
+    "$oid": "6387d8b7f9e95bfeca4d53da"
+  },
+  "description": "This loan is a feature that allows you to borrow from your existing card's available limit. You'll pay it back over a set period of time based on your loan amount with a fixed Annual Percentage Rate that's lower than your standard purchase APR.",
+  "document": [
+    "1669860015628-User-list.pdf",
+    "1669860015643-User-list.pdf"
+  ],
+  "loanamount": "15000",
+  "interestrate": "3.00",
+  "years": "3.0",
+  "startdate": "2022-11-29",
+  "enddate": "2025-11-30",
+  "totalemimonth": "1",
+  "processingfee": "100",
+  "incomeperyear": "500000",
+  "incomepermonth": "5000",
+  "oincome": "5000",
+  "workdetail": "",
+  "colleague": "Divyesh",
+  "address": "2522 Capitol Av, Aurora",
+  "mobile": "3129004370",
+  "addtype": "home",
+  "othertext": "",
+  "status": 1,
+  "approvestatus": 0,
+  "monthly_payment": 10025.000000000213
+},{
+  "_id": {
+    "$oid": "63880e46a1e8a3269072bac7"
+  },
+  "loancount": "L1669860850",
+  "loantype": {
+    "$oid": "63863cb02f95682e000f730f"
+  },
+  "user": {
+    "$oid": "6387d8b7f9e95bfeca4d53db"
+  },
+  "description": "A mortgage is a written agreement that gives a lender the right to take your home if you don't repay the money they lend you at the terms you agreed on. Your mortgage payment is paid over a set number of years based on how much you borrow and the interest rate you're approved for.",
+  "document": [
+    "1669860934300-User-list.pdf",
+    "1669860934308-User-list.pdf",
+    "1669860934319-User-list.pdf"
+  ],
+  "loanamount": "100000",
+  "interestrate": "7.00",
+  "years": "12.0",
+  "startdate": "2022-11-30",
+  "enddate": "2022-11-30",
+  "totalemimonth": "1",
+  "processingfee": "500",
+  "incomeperyear": "500000",
+  "incomepermonth": "5000",
+  "oincome": "5000",
+  "workdetail": "",
+  "colleague": "Divyesh",
+  "address": "2522 capitol Ave, Aurora",
+  "mobile": "3129004370",
+  "addtype": "home",
+  "othertext": "",
+  "status": 1,
+  "approvestatus": 0,
+  "monthly_payment": 100583.33333333294
+}]

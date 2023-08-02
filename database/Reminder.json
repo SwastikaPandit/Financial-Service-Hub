@@ -1,0 +1,31 @@
+[{
+  "_id": {
+    "$oid": "60990d47ae2e4f1668854a99"
+  },
+  "reminder_nm": "Upcoming EMI",
+  "reminder_template": "Upcoming Emi Notification",
+  "reminder_desc": "Upcoming EMI",
+  "reminder_will_send": "Before",
+  "reminder_type": "upcoming_emi",
+  "reminderdata": [
+    {
+      "number": "3",
+      "recurense": "days"
+    }
+  ]
+},{
+  "_id": {
+    "$oid": "609a2c4102603d1c94652cfb"
+  },
+  "reminder_nm": "Emi Payment remain",
+  "reminder_template": "EMI Payment pending",
+  "reminder_desc": "Emi payment remain",
+  "reminder_will_send": "After",
+  "reminder_type": "emi_pending",
+  "reminderdata": [
+    {
+      "number": "3",
+      "recurense": "days"
+    }
+  ]
+}]

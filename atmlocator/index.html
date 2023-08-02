@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>FSH ATM Locator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style type="text/css">
+
+/* map needs width and height to appear */
+#map{
+	width: 100%;
+	max-width: 100%;
+	height: 700px;
+}
+    html,
+    body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Styling for Autocomplete search bar */
+    #pac-card {
+      background-color: #fff;
+      border-radius: 2px 0 0 2px;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      box-sizing: border-box;
+      font-family: Roboto;
+      margin: 10px 10px 0 0;
+      -moz-box-sizing: border-box;
+      outline: none;
+    }
+    
+    #pac-container {
+      padding-top: 12px;
+      padding-bottom: 12px;
+      margin-right: 12px;
+    }
+    
+    #pac-input {
+      background-color: #fff;
+      font-family: Roboto;
+      font-size: 15px;
+      font-weight: 300;
+      margin-left: 12px;
+      padding: 0 11px 0 13px;
+      text-overflow: ellipsis;
+      width: 400px;
+    }
+    
+    #pac-input:focus {
+      border-color: #4d90fe;
+    }
+    
+    #title {
+      color: #fff;
+      background-color: #acbcc9;
+      font-size: 18px;
+      font-weight: 400;
+      padding: 6px 12px;
+    }
+    
+    .hidden {
+      display: none;
+    }
+
+    /* Styling for an info pane that slides out from the left. 
+     * Hidden by default. */
+    #panel {
+      height: 100%;
+      width: null;
+      background-color: white;
+      position: fixed;
+      z-index: 1;
+      overflow-x: hidden;
+      transition: all .2s ease-out;
+    }
+    
+    .open {
+      width: 250px;
+    }
+    
+    .place {
+      font-family: 'open sans', arial, sans-serif;
+      font-size: 1.2em;
+      font-weight: 500;
+      margin-block-end: 0px;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+    
+    .distanceText {
+      color: silver;
+      font-family: 'open sans', arial, sans-serif;
+      font-size: 1em;
+      font-weight: 400;
+      margin-block-start: 0.25em;
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+
+</style>
+
+</head>
+<body>
+
+<!-- this div will hold your map -->
+<div id="map"></div>
+
+<!-- this div will hold your store info -->
+<div id="info_div"></div>
+
+<script>
+function initMap() {
+	var myMapCenter = {lat: 41.878113, lng: -87.629799};
+
+	// Create a map object and specify the DOM element for display.
+	var map = new google.maps.Map(document.getElementById('map'), {
+		center: myMapCenter,
+		zoom: 15
+	});
+	function markStore(storeInfo){
+
+		// Create a marker and set its position.
+		var marker = new google.maps.Marker({
+			map: map,
+			position: storeInfo.location,
+			title: storeInfo.name
+		});
+
+		// show store info when marker is clicked
+		marker.addListener('click', function(){
+			showStoreInfo(storeInfo);
+		});
+	}
+
+	// show store info in text box
+	function showStoreInfo(storeInfo){
+		var info_div = document.getElementById('info_div');
+		info_div.innerHTML = 'Service Name: '
+			+ storeInfo.name
+			+ '<br>Hours: ' + storeInfo.hours
+            + '<br>Ratings:' + storeInfo.review
+	}
+	var stores = [
+		{
+			name: 'CITI Bank ATM',
+			location: {lat: 41.884689, lng: -87.627449},
+			hours: 'Open 24 hour',
+            review: '3.3/5'
+		},
+		{
+			name: 'Wells Fargo ATM',
+			location: {lat: 41.8816154, lng: -87.6375485},
+			hours: 'Open 24 hours',
+            review: '3.3/5'
+		},
+        {
+			name: 'Bank of America ATM',
+			location: {lat: 41.87934, lng: -87.627597},
+			hours: 'Open 24 hours',
+            review: '5/5'
+		},
+        {
+			name: 'Bank of America ATM',
+			location: {lat: 41.885815, lng: -87.632374},
+			hours: 'Open 24 hours',
+            review: '4/5'
+		},
+        {
+			name: 'Bank of America ATM',
+			location: {lat: 41.8827557, lng: -87.6335767},
+			hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+			name: 'Bank of America ATM (Drive-thru)',
+			location: {lat: 41.891207, lng: -87.632677},
+			hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'Citibank ATM',
+            location: {lat: 53.9593817, lng: -1.0814175},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'Bitcoin of America ATM',
+            location: {lat: 41.8236716, lng: -87.6231701},
+            hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'US Bank ATM',
+            location: {lat: 41.8272803, lng: -87.6413159},
+            hours: 'Open 24 hours',
+            review: '3.5/5'
+        },
+        {
+            name: 'DigitalMint Bitcoin ATM Teller Window',
+            location: {lat: 41.8311287, lng: -87.6230001},
+            hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'Pacific Global Bank ATM',
+            location: {lat: 41.8502275, lng: -87.6318334},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'BMO Harris ATM',
+            location: {lat: 41.8311353, lng: -87.6338966},
+            hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'Coinstar Kiosk | Bitcoin ATM',
+            location: {lat: 41.8311287, lng: -87.6230001},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'ATM (Marquette Bank)',
+            location: {lat: 41.8379409, lng: -87.6419326},
+            hours: 'Open 24 hours',
+            review: '3.5/5'
+        },
+        {
+            name: 'PNC ATM',
+            location: {lat: 41.8352026, lng: -87.626095},
+            hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'Wells Fargo ATM',
+            location: {lat: 41.8790812, lng: -87.6396991},
+            hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'Associated Bank ATM',
+            location: {lat: 41.809408, lng: -87.606672},
+            hours: 'Open 24 hours',
+            review: '1/5'
+        },
+        {
+            name: 'RockItCoin Bitcoin ATM',
+            location: {lat: 41.7955982, lng: -87.6302911},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'BudgetCoinz Bitcoin ATM',
+            location: {lat: 41.9103621, lng: -87.6489834},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'U.S. Bank ATM',
+            location: {lat: 41.8954632, lng: -87.6538317},
+            hours: 'Open 24 hours',
+            review: '2/5'
+        },
+        {
+            name: 'U.S. Bank ATM',
+            location: {lat: 41.8272803, lng: -87.6413159},
+            hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'U.S. Bank ATM - Cosmopolitan',
+            location: {lat: 41.89694, lng: -87.6308296},
+            hours: 'Open 24 hours',
+            review: '2.8/5'
+        },
+        {
+            name: 'U.S. Bank Branch',
+            location: {lat: 41.8828433, lng: -87.6266671},
+            hours: 'Open 24 hours',
+            review: '3.2/5'
+        },
+        {
+            name: 'U.S. Bank Branch',
+            location: {lat: 41.8859132, lng: -87.6238104},
+            hours: 'Open 24 hours',
+            review: '3.1/5'
+        },
+        {
+            name: 'US Bank ATM',
+            location: {lat: 41.8543402, lng: -87.6335485},
+            hours: 'Open 24 hours',
+            review: '3.1/5'
+        },
+        {
+            name: 'Chase ATM',
+            location: {lat: 41.8306272, lng: -87.6457994},
+            hours: 'Open 24 hours',
+            review: '1/5'
+        },
+        {
+            name: 'Chase ATM',
+            location: {lat: 41.7999202, lng: -87.5962971},
+            hours: 'Open 24 hours',
+            review: '2/5'
+        },
+        {
+            name: 'Chase ATM',
+            location: {lat: 41.8802908, lng: -87.6410333},
+            hours: 'Open 24 hours',
+            review: '2.5/5'
+        },
+        {
+            name: 'Chase ATM',
+            location: {lat: 41.8902276, lng: -87.6394175},
+            hours: 'Open 24 hours',
+            review: '2.5/5'
+        },
+        {
+            name: 'Chase ATM',
+            location: {lat: 41.8742625, lng: -87.6679014},
+            hours: 'Open 24 hours',
+            review: '3.5/5'
+        },
+        {
+            name: 'Chase ATM',
+            location: {lat: 41.8816079, lng: -87.6301218},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'Coin Cloud Bitcoin ATM',
+            location: {lat: 41.8021254, lng: -87.6200255},
+            hours: 'Open 24 hours',
+            review: '4.5/5'
+        },
+        {
+            name: 'PNC Bank',
+            location: {lat: 41.8306765, lng: -87.6267971},
+            hours: 'Open 24 hours',
+            review: '3.3/5'
+        },
+        {
+            name: 'PNC Bank',
+            location: {lat: 41.8022377, lng: -87.588064},
+            hours: 'Open 24 hours',
+            review: '2.3/5'
+        },
+        {
+            name: 'PNC Bank ATM',
+            location: {lat: 41.8682642, lng: -87.6416173},
+            hours: 'Open 24 hours',
+            review: '1/5'
+        },
+        {
+            name: 'PNC Bank ATM',
+            location: {lat: 41.799875, lng: -87.674475},
+            hours: 'Open 24 hours',
+            review: '1/5'
+        },
+        {
+            name: 'MB Financial Bank',
+            location: {lat: 41.881858, lng: -87.647527},
+            hours: 'Open 24 hours',
+            review: '4.5/5'
+        },
+        {
+            name: 'MB Financial Bank',
+            location: {lat: 41.7982408, lng: -87.6297044},
+            hours: 'Open 24 hours',
+            review: '1.5/5'
+        },
+        {
+            name: 'MB Financial Bank',
+            location: {lat: 41.8864638, lng: -87.6273935},
+            hours: 'Open 24 hours',
+            review: '5/5'
+        },
+        {
+            name: 'MB Financial Bank',
+            location: {lat: 41.9896006, lng: -87.6603636},
+            hours: 'Open 24 hours',
+            review: '2.1/5'
+        },
+        {
+            name: 'MB Financial Bank',
+            location: {lat: 41.85004806518555, lng: -87.82196807861328},
+            hours: 'Open 24 hours',
+            review: '5/5'
+        },
+        {
+            name: 'MB Financial Bank',
+            location: {lat: 41.9845284, lng: -87.776275},
+            hours: 'Open 24 hours',
+            review: '3.9/5'
+        },
+        {
+            name: 'MB Financial Bank',
+            location: {lat: 41.9378916, lng: -87.8340122},
+            hours: 'Open 24 hours',
+            review: '3.7/5'
+        },
+        {
+            name: 'First American Bank',
+            location: {lat: 41.8666852, lng: -87.6257027},
+            hours: 'Open 24 hours',
+            review: '4.5/5'
+        },
+        {
+            name: 'Wintrust Bank',
+            location: {lat: 41.8405229, lng: -87.630083},
+            hours: 'Open 24 hours',
+            review: '3.5/5'
+        },
+        {
+            name: 'Wintrust Bank',
+            location: {lat: 41.857629, lng: -87.661495},
+            hours: 'Open 24 hours',
+            review: '3.5/5'
+        },
+        {
+            name: 'Wintrust Bank',
+            location: {lat: 41.8788523, lng: -87.6275853},
+            hours: 'Open 24 hours',
+            review: '3.3/5'
+        },
+        {
+            name: 'Wintrust Bank',
+            location: {lat: 41.890146, lng: -87.630975},
+            hours: 'Open 24 hours',
+            review: '4.2/5'
+        },
+        {
+            name: 'Wintrust Bank',
+            location: {lat: 41.8865709, lng: -87.647855},
+            hours: 'Open 24 hours',
+            review: '3.4/5'
+        },
+        {
+            name: 'Brighton Park Community Bank',
+            location: {lat: 41.8143083, lng: -87.7044308},
+            hours: 'Open 24 hours',
+            review: '4.3/5'
+        },
+        {
+            name: 'Wintrust Bank',
+            location: {lat: 41.8930117, lng: -87.6186877},
+            hours: 'Open 24 hours',
+            review: '2.4/5'
+        },
+        {
+            name: 'CoinFlip Bitcoin ATM',
+            location: {lat: 41.8727705, lng: -87.6308599},
+            hours: 'Open 24 hours',
+            review: '5/5'
+        },
+        {
+            name: 'GetCoins Bitcoin ATM',
+            location: {lat: 41.8162139, lng: -87.6267061},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'Coinsource Bitcoin ATM',
+            location: {lat: 41.8232363, lng: -87.6328749},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        
+        {
+            name: 'LibertyX Bitcoin ATM',
+            location: {lat: 41.802934, lng: -87.6071322},
+            hours: 'Open 24 hours',
+            review: '4.5/5'
+        },
+        {
+            name: 'Coinsource Bitcoin ATM',
+            location: {lat: 41.8474215, lng: -87.6462516},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'Coinhub Bitcoin ATM Teller',
+            location: {lat: 41.7998672, lng: -87.5947156},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'Bitcoin ATM Chicago - Coinhub',
+            location: {lat: 41.8763257, lng: -87.6310544},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'Cardtronics',
+            location: {lat: 41.8379742, lng: -87.6453776},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'Cardtronics ATM',
+            location: {lat: 41.8383795, lng: -87.6457584},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'Cardtronics',
+            location: {lat: 41.8833855, lng: -87.6431322},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'ATM',
+            location: {lat: 41.8311287, lng: -87.6230001},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'ATM (BP)',
+            location: {lat: 41.8381006, lng: -87.6229235},
+            hours: 'Open 24 hours',
+            review: '4/5'
+        },
+        {
+            name: 'ATM',
+            location: {lat: 41.8438137, lng: -87.6240487},
+            hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'ATM',
+            location: {lat: 41.8466533, lng: -87.6219533},
+            hours: 'Open 24 hours',
+            review: '3/5'
+        },
+        {
+            name: 'ATM',
+            location: {lat: 41.8089811, lng: -87.6434618},
+            hours: 'Open 24 hours',
+            review: '2/5'
+        },
+        {
+            name: 'ATM',
+            location: {lat: 41.8499953, lng: -87.6318184},
+            hours: 'Open 24 hours',
+            review: '2.5/5'
+        },
+        {
+            name: 'ATM',
+            location: {lat: 41.8530104, lng: -87.631551},
+            hours: 'Open 24 hours',
+            review: '2.5/5'
+        },
+	];
+
+	stores.forEach(function(store){
+		markStore(store);
+	});
+
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAObPHJ8F9ChDA1peUkz1aH5lxmoFps1Kw&callback=initMap" async defer></script>
+</body>
+</html>

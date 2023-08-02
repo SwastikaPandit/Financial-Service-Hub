@@ -1,0 +1,23 @@
+[{
+  "_id": {
+    "$oid": "6386ae2a70adf13d8c399c2a"
+  },
+  "payment_type": "cash",
+  "repayments": "1",
+  "repaymentamount": "0",
+  "cheque_name": "",
+  "cheque_accountno": "",
+  "cheque_date": "",
+  "date": "11/29/2022"
+},{
+  "_id": {
+    "$oid": "6387daa95b868f2e083702ae"
+  },
+  "payment_type": "cash",
+  "repayments": "10",
+  "repaymentamount": "1000",
+  "cheque_name": "",
+  "cheque_accountno": "",
+  "cheque_date": "",
+  "date": "11/30/2022"
+}]

@@ -1,0 +1,93 @@
+[{
+  "_id": {
+    "$oid": "6386ac8370adf13d8c399c1e"
+  },
+  "servicename": "Wealth Advisory",
+  "categorytypes": "Wealth Management",
+  "servicefor": "all",
+  "description": "advisor can work with you to help create a plan for your full financial picture, collaborating with you on changes as your needs evolve",
+  "uploadimages": [
+    "1669770371886-wealth.jpg"
+  ],
+  "tagname": [
+    null
+  ],
+  "duration_hour": "8",
+  "duration_minute": "00",
+  "pricetype": "timebase",
+  "price": "500",
+  "assigned_staff": [
+    null
+  ],
+  "user_capacity": "",
+  "enable_online_booking": "1"
+},{
+  "_id": {
+    "$oid": "6386ad0570adf13d8c399c22"
+  },
+  "servicename": "Mutal Funds",
+  "categorytypes": "Wealth Management",
+  "servicefor": "all",
+  "description": "A mutual fund is a company that pools money from many investors and invests the money in securities such as stocks, bonds, and short term debt. The combined holdings of the mutual fund are known as its portfolio. Investors buy shares in mutual funds. ",
+  "uploadimages": [
+    "1669770501166-bbtex.png"
+  ],
+  "tagname": [
+    null
+  ],
+  "duration_hour": "8",
+  "duration_minute": "00",
+  "pricetype": "timebase",
+  "price": "500",
+  "assigned_staff": [
+    null
+  ],
+  "user_capacity": "",
+  "enable_online_booking": "1"
+},{
+  "_id": {
+    "$oid": "6387b6f35c9d091e08758a60"
+  },
+  "servicename": "ATM Service",
+  "categorytypes": "ATM",
+  "servicefor": "all",
+  "description": "Look for the ATM located in the town",
+  "uploadimages": [
+    "1669838579332-ATM.jpg"
+  ],
+  "tagname": [
+    "atm"
+  ],
+  "duration_hour": "24",
+  "duration_minute": "00",
+  "pricetype": "timebase",
+  "price": "0",
+  "assigned_staff": [
+    "6387b0ee5c9d091e08758a50"
+  ],
+  "user_capacity": "",
+  "enable_online_booking": "1"
+},{
+  "_id": {
+    "$oid": "6387b7cf5c9d091e08758a65"
+  },
+  "servicename": "ATM Locator",
+  "categorytypes": "ATM",
+  "servicefor": "all",
+  "description": "Find ATM",
+  "uploadimages": [
+    "1669838799945-ATM.jpg"
+  ],
+  "tagname": [
+    "atm"
+  ],
+  "duration_hour": "24",
+  "duration_minute": "00",
+  "pricetype": "timebase",
+  "price": "0",
+  "assigned_staff": [
+    null
+  ],
+  "user_capacity": "",
+  "enable_online_booking": null
+}]

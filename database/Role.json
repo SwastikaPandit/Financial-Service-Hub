@@ -1,0 +1,51 @@
+[{
+  "_id": {
+    "$oid": "5d5671a63d7d020a9857f935"
+  },
+  "role_nm": "super admin",
+  "role_slug": "superadmin",
+  "role_desc": "super admin",
+  "admin_access": 1,
+  "allow_access": 1,
+  "status": 1
+},{
+  "_id": {
+    "$oid": "5d5685d8c7053f2780bb0753"
+  },
+  "role_nm": "Admin",
+  "role_slug": "admin",
+  "role_desc": "Admin",
+  "admin_access": 1,
+  "allow_access": 1,
+  "status": 1
+},{
+  "_id": {
+    "$oid": "5d5ce97225a26b1fb45236ba"
+  },
+  "role_nm": "Staff",
+  "role_slug": "staff",
+  "role_desc": "staff",
+  "admin_access": 0,
+  "allow_access": 1,
+  "status": 0
+},{
+  "_id": {
+    "$oid": "5de8c45b0b29ca27380fa307"
+  },
+  "role_nm": "Accountant",
+  "role_slug": "accountant",
+  "role_desc": "accountant",
+  "admin_access": 0,
+  "allow_access": 1,
+  "status": 0
+},{
+  "_id": {
+    "$oid": "637d07f8b547a5242c218f40"
+  },
+  "role_nm": "Customer",
+  "role_slug": "customer",
+  "role_desc": "Customer",
+  "admin_access": 0,
+  "allow_access": 1,
+  "status": 0
+}]
